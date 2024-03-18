@@ -1,0 +1,19 @@
+.edit-btn {
+  margin-left: -5rem !important;
+  margin-right: -1rem !important;
+}
+
+.low-btn {
+  background-color: #0ac947 !important;
+  color: white !important;
+}
+
+.medium-btn {
+  background-color: #ffd572 !important;
+  color: white !important;
+}
+
+.high-btn {
+  background-color: red !important;
+  color: white !important;
+}

@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.priority-high {
+  color: #f73446;
+}
+
+.priority-medium {
+  color: #ffbd21;
+}
+
+.priority-low {
+  color: #0bc947;
+}
+
+.task > p,
+.priority > p {
+  margin-top: -1rem;
+}
+
+.task {
+  width: 10.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.priority {
+  width: 10.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.to-do-progress {
+  width: 22rem;
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+h4 {
+  color: #91929e;
+}
